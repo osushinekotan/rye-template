@@ -5,7 +5,10 @@ description = "{{ cookiecutter.description }}"
 authors = [
     { name = "{{ cookiecutter.author_name }}", email = "{{ cookiecutter.author_email }}" },
 ]
-dependencies = []
+dependencies = [
+    "pytest>=8.1.1",
+    "pre-commit>=3.6.2",
+]
 readme = "README.md"
 requires-python = ">= {{ cookiecutter.python_version }}"
 
@@ -15,7 +18,10 @@ build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = []
+dev-dependencies = [
+    "ruff>=0.3.2",
+    "mypy>=1.9.0",
+]
 
 [tool.hatch.metadata]
 allow-direct-references = true
