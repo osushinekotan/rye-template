@@ -53,6 +53,7 @@ lint.ignore = [
     "D107",  # missing docstring in __init__
     "D203",  # 1 blank line required before class docstring
     "D213",  # multi-line docstring summary should start at the second line
+    "D400",  # first line should end with a period
     "D401",  # first line should be in imperative mood
     "D407",  # missing dashed underline after section
     "D408",  # section underline should be in the line following the section's name
