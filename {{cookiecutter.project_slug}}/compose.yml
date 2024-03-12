@@ -13,4 +13,3 @@ services:
       - ./.env
     environment:
       - PYTHONPATH=/workspace
-      
