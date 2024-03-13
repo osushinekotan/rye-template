@@ -46,6 +46,7 @@ lint.unfixable = [
 lint.ignore = [
     "E501",  # line too long
     "E402",  # module level import not at top of file
+    "D100",  # missing docstring in public module
     "D102",  # missing docstring in public method
     "D104",  # missing docstring in public package
     "D105",  # missing docstring in magic method
