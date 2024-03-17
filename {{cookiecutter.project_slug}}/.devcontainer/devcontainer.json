@@ -2,13 +2,12 @@
   "name": "{{ cookiecutter.project_slug }}",
   "dockerComposeFile": ["../compose.yml"],
   "service": "workspace",
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "workspaceFolder": "/workspace",
   "containerEnv": {
     "TZ": "Asia/Tokyo"
   },
   "features": {
     "ghcr.io/dhoeric/features/google-cloud-cli:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   }
 }
