@@ -73,6 +73,7 @@ lint.ignore = [
 "__init__.py" = ["F401"]
 
 [tool.mypy]
+exclude = ["__init__"]
 python_version = "{{ cookiecutter.python_version }}"
 allow_redefinition = true
 allow_untyped_globals = false
