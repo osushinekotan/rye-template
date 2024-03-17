@@ -21,15 +21,23 @@ repos:
       # Run the linter.
       - id: ruff
         name: ruff-lint
-        types_or: [python, pyi, jupyter]
+        types_or: [python, jupyter]
         entry: ruff check . --fix
         language: python
+
       # Run the formatter.
       - id: ruff-format
         name: ruff-format
         entry: ruff format .
         language: python
-        types_or: [python, pyi, jupyter]
+        types_or: [python, jupyter]
+
+      # Rum type check
+      - id: mypy-check
+        name: mypy-check
+        entry: rye run mypy .
+        language: python
+        types_or: [python]
 
   # yaml, json formatting
   - repo: https://github.com/pre-commit/mirrors-prettier
