@@ -14,7 +14,4 @@ RUN curl -sSf https://rye-up.com/get | RYE_NO_AUTO_INSTALL=1 RYE_INSTALL_OPTION=
 
 # activate uv
 RUN rye config --set-bool behavior.use-uv=true
-
-# rye install the dependencies
 COPY pyproject.toml requirements.lock requirements-dev.lock .python-version README.md ./
-RUN rye sync
