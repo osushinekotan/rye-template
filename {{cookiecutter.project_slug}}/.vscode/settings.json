@@ -2,6 +2,10 @@
   "editor.renderWhitespace": "all",
   "extensions.ignoreRecommendations": false,
   "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
   "notebook.formatOnCellExecution": true,
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
