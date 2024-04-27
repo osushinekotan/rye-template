@@ -18,5 +18,5 @@ test: ## Run tests
 mypy: ## Run mypy
 	rye run mypy .
 
-check: ## Run pre-commit hooks (lint, format, etc.)
+format: ## Run pre-commit hooks (lint, format, etc.)
 	rye run pre-commit run -a
