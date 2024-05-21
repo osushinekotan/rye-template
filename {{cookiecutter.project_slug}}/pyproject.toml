@@ -75,7 +75,6 @@ lint.ignore = [
     "D416",  # section name should end with a semicolon
     "D417",  # missing blank line after section name
     "N806",  # variable in function should be lowercase
-
 ]
 
 [tool.ruff.lint.per-file-ignores]
