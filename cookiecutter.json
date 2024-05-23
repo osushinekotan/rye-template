@@ -4,7 +4,7 @@
     "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '-')|replace('_', '-')|replace('.', '-')|trim() }}",
     "project_source": "{{ cookiecutter.project_slug|replace('-', '_') }}",
     "description": "This is a project description.",
-    "author_name": "mst8823",
+    "author_name": "",
     "author_email": "",
     "python_version": "3.11"
 }
