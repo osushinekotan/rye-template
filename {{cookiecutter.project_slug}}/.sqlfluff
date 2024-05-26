@@ -2,4 +2,4 @@
 templater = jinja
 dialect = bigquery
 max_line_length = 120
-exclude_rules = ST07,ST02,RF02
+exclude_rules = ST07,ST02,RF02,ST05
