@@ -12,10 +12,10 @@ cookiecutter を使った python 用のテンプレート
 
 - install rye
 
-    https://rye-up.com/guide/installation/
+    https://rye.astral.sh/guide/installation/
 
     ```
-    curl -sSf https://rye-up.com/get | bash
+    curl -sSf https://rye.astral.sh/get | bash
     ```
 
 - project の作成 

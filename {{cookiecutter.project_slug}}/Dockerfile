@@ -10,7 +10,7 @@ RUN apt update && \
 # install rye
 ENV RYE_HOME="$HOME/.rye"
 ENV PATH="$RYE_HOME/shims:$PATH"
-RUN curl -sSf https://rye-up.com/get | RYE_NO_AUTO_INSTALL=1 RYE_INSTALL_OPTION="--yes" bash
+RUN curl -sSf https://rye.astral.sh/get | RYE_NO_AUTO_INSTALL=1 RYE_INSTALL_OPTION="--yes" bash
 
 # activate uv
 RUN rye config --set-bool behavior.use-uv=true
