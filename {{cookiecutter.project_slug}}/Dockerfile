@@ -3,7 +3,7 @@ FROM ubuntu:latest
 WORKDIR /workspace
 
 RUN apt update && \
-    apt install -y curl build-essential openssh-client && \
+    apt install -y curl build-essential openssh-client zip unzip && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 
