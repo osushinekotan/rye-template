@@ -3,7 +3,7 @@ FROM ubuntu:latest
 WORKDIR /workspace
 
 RUN apt update && \
-    apt install -y curl build-essential openssh-client zip unzip && \
+    apt install -y curl build-essential openssh-client zip unzip tmux && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 
